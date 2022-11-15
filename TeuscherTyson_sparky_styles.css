@@ -55,3 +55,75 @@ h2 {
 h3 {
     font-size: 24px;
 }
+#grid-container {
+    display:grid;
+    grid-template-columns: 1.5fr 5fr;
+}
+nav {
+    background-color: #ffc627;
+    text-decoration: none;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    list-style: none;
+    display: block;
+    background-color: #8c1d40;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    background-color: #fff;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+
+#year {
+    background-color: #ffc627;
+    color: #555;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    font-weight: bold; 
+}
+
+#contact {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+footer.Footer a {
+    color: #fff;
+    display: inline;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+   
+}
+q {
+    font-style: italic;
+}
+footer{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
